@@ -1,0 +1,292 @@
+.flight_page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header{
+    height: 36vh;
+    width: 100%;
+    background-color: #0066ff;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+
+    position: absolute;
+    z-index: -1;
+    display: flex;
+}
+
+h3{
+    margin-top: 9vh;
+    margin-bottom: 1.7vh;
+    justify-content: center;
+    z-index: 1;
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+.booking_sec{
+    background-color: #ffffff;
+    height: 34vh;
+    width: 65vw;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.options_container{
+    display: flex;
+}
+
+.trip_option{
+    margin: 20px 0;
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    color: dimgray;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 20px;
+    padding: 16px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trip_option input[type = "radio"]{
+    margin-right: 10px;
+    accent-color: #ff5b3f;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #f7e7e2;
+    color: #ff5b3f;
+}
+
+.input_section input{
+    margin-top: 12px;
+    height: 8vh;
+    padding: 10px 20px;
+}
+
+.input_section input:hover{
+    cursor: pointer;
+    border: solid 2px dimgray;
+}
+
+.input_section span{
+    color: dimgray;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.from{
+    position: relative;
+    bottom: 38px;
+    left: 30px;
+    padding: 0 5px;
+    background-color: #ffffff;
+    z-index: 1;
+}
+.from2{
+    position: relative;
+    left: -5px;
+
+    
+}
+
+.from_input{
+    font-size: 16px;
+    font-weight: bolder;
+    width: 14vw;
+    margin-left: -25px;
+    border: solid 2px #f9e1da;
+    border-radius: 10px;
+}
+
+.from_input::placeholder{
+    color: rgb(160, 160, 160);
+}
+
+.from_input2{
+    position: relative;
+    right: 30px;
+    z-index: 0;
+}
+
+.exchange_button{
+    color: #ff5b3f;
+    background-color: #ffffff;
+    border: none;
+    padding: 4px 8px;
+    padding-top: 8px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    z-index: 10;
+    left: -15px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.date_input{
+    font-size: 16px;
+    font-weight: bolder;
+    width: 7vw;
+    margin-left: -95px;
+    border: solid 2px #f9e1da;
+    border-radius: 10px;
+}
+
+.departure{
+    position: relative;
+    bottom: 38px;
+    left: -5px;
+    padding: 0 5px;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.return_input{
+    font-size: 16px;
+    font-weight: bolder;
+    width: 7vw;
+    margin-left: -45px;
+    border: solid 2px #f9e1da;
+    border-radius: 10px;
+}
+
+.return_input::placeholder{
+    font-size: 12px;
+
+}
+
+.return{
+    position: relative;
+    bottom: 38px;
+    left: 20px;
+    padding: 0 5px;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.traveller_input{
+    font-size: 16px;
+    font-weight: bolder;
+    width: 19vw;
+    margin-left: -110px;
+    border: solid 2px #f9e1da;
+    /* border: solid 2px #f7e7e2; */
+    border-radius: 10px;
+}
+
+.traveller{
+    position: relative;
+    bottom: 38px;
+    left: 20px;
+    padding: 0 5px;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+
+.fare_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(to right, rgba(255, 245, 220, 1), rgba(0, 0, 0, 0));
+    gap: 10px;
+    padding: 10px 0;
+    margin-top: 2.5vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fare_section div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 8px;
+}
+
+.fare_offer{
+    background-color: #ff6e54;
+    color: #ffffff;
+    padding: 2px 8px 4px 8px;
+    margin-top: 2px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.fare_options{
+    height: 6.5vh;
+    width: 10vw;
+
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: #ffffff;
+    border: solid 1px #d2d2d2;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fare_section h5{
+  color: #141823;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 3px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fare_section h6{
+    color: #717171;
+    font-size: 12px;
+    font-weight: 400;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.fare_section input[type = "radio"]{
+    margin-right: 10px;
+    accent-color: #ff5b3f;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.fare_selected{
+    background-color: #f7e7e2;
+    border: solid 1px #ff5b3f;
+}
+
+.search_button{
+    display: flex;
+    justify-content: center;
+}
+
+.search_button button{  
+    padding: 16px 45px;
+    background-color: #0066ff;
+    color: #ffffff; 
+    font-size: 18px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 35px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+
+    position: relative;
+    top: 32px;
+}
+
+.search_button button:hover{
+    background-color: #0551c2d9;
+}
+
+

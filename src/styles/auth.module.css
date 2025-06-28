@@ -1,0 +1,119 @@
+.auth_container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1001;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    transition: all 0.2s ease-in-out;
+}
+
+.auth_form{
+    width: 22vw;
+    padding: 20px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+.auth_form h1{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0;
+    margin-top: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+    color: #ff6d38;
+}
+
+.auth_form form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 16vw;
+}
+
+.auth_form form input{
+    height: 5.5vh;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: dimgray;
+    outline: none;
+    border: solid 2px #fbefec;
+    border-radius: 5px;
+}
+
+.auth_form form input:hover{
+    border: solid 2px dimgray;
+}
+
+.auth_form form button{
+    background-color: #ff6d38;
+    color: #fff;
+    border: solid 1px #ff6d38;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.auth_form form button:hover{
+    background-color: transparent;
+    color: #ff6d38;
+    border: solid 1px #ff6d38;
+}
+
+.auth_form p{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #717171;
+}
+
+.auth_form span{
+    text-decoration: underline;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.auth_form span:hover{
+    color: #ff6d38;
+}
+
+.close_button{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.9rem;
+    color: #717171;
+    cursor: pointer;
+    
+}
+
+.error_msg{
+    color: red;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}

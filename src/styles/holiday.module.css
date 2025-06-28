@@ -1,0 +1,21 @@
+.holiday_page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.booking_section{
+    margin-top: 10vh;
+    height: 40vh;
+    width: 65vw;
+    background-color: #ffffff;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
