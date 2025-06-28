@@ -30,7 +30,7 @@ const Navbar = () => {
             <img onClick={handleLogo} className={styles.nav_logo} src={nav_logo} alt="nav-logo" />
         </div>
         <div className={styles.services}>
-               
+              
                 <div onClick={() => setServicetype('flights')} className={`${servicetype === 'flights' ? styles.service_selected : '' }`}>
                   <Link to="/"><img src={nav_flights} alt="flights" /><span>Flights</span></Link>
                 </div>
@@ -66,8 +66,6 @@ const Navbar = () => {
        {authModal === "signup" && <Signup />}
        </div>
      
-    {/* <div className={styles.navbar_bottom}>
-     </div> */}
     </div>
   )
 }

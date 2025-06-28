@@ -1,7 +1,7 @@
 .navbar{
     position: fixed;
     top: 0;
-    height: 7vh;
+    height: 65px;
     width: 100%;
     color: dimgray;
     background-color: #ffffff;
@@ -22,8 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    left: 5vw;
+    margin-left: 3rem;
     cursor: pointer;
 }
 
@@ -66,14 +65,14 @@
 .service_selected span{
     color: #ff6d38;
     padding-top: 12px;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
     border-bottom: #ff6d38 solid 4px;
 }
 
 
 .nav_button{
-    height: 4.5vh;
-    width: 7.5vw;
+    height: 45px;
+    width: 160px;
     font-size: 0.85rem;
     font-weight:600;
     background-color: transparent;
@@ -82,8 +81,8 @@
     color: #ff6d38;
     outline: none;
     cursor: pointer;
-    position: relative;
-    right: 5vw;
+    margin-right: 3rem;
+    
 
     display: flex;
     align-items: center;
@@ -94,18 +93,6 @@
 .nav_button svg{
     height: 21px;
     width: 21px;
-}
-
-
-.navbar_bottom{
-    height: 36vh;
-    width: 100%;
-    background-color: #0066ff;
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 40%;
-
-    position: absolute;
-    z-index: -1;
 }
 
 .profile_box{
