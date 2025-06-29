@@ -93,10 +93,12 @@ const Flight = () => {
            checked = {faretype === "doctor-nurses"} 
            onChange={() => setFaretype('doctor-nurses')}/><span><h5>Doctors & Nurses</h5><h6>Up to ₹ 600 off</h6></span></label>
         </div>
+
          <div className={styles.search_button}>
           <button>SEARCH FLIGHTS</button>
          </div>
        </div>
+       
        <Emirates/>
        <Offer/>
        <Footer/>
