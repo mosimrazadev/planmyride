@@ -1,17 +1,15 @@
-import React from 'react'
-import styles from "../styles/trains.module.css"
-import Footer from '../components/Footer'
+import React from 'react';
+import styles from '../styles/trains.module.css';
+import WaveStyle from '../designs/WaveStyle';
 
 const Trains = () => {
+
   return (
     <div className={styles.train_page}>
-    <div className={styles.booking_section}>
-       Train Content Soon......
+        <WaveStyle/>
     </div>
+  );
+};
 
-    <Footer/>
-  </div>
-  )
-}
+export default Trains;
 
-export default Trains
