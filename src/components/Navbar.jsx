@@ -64,6 +64,7 @@ const Navbar = () => {
        <div>
        {authModal === "login" && <Login />}
        {authModal === "signup" && <Signup />}
+       
        </div>
      
     </div>

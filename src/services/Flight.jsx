@@ -18,6 +18,7 @@ const Flight = () => {
        <h3>Book Domestic and International Flight Tickets</h3>
 
        <div className={styles.booking_sec}>
+        
         <div className={styles.options_container}>
          <label className={`${styles.trip_option} ${triptype === 'one-way' ? styles.selected : '' }`}>
            <input 

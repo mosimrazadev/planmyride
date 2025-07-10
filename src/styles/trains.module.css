@@ -1,16 +1,431 @@
-.header {
-    position: relative;
-    background: #ff6d38;
-    height: 600px;
-    overflow: hidden;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.train_page{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header{
+  width: 65vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: absolute;
+  top: 5.5rem;
+}
+
+.header h2{
+  font-size: 1.32rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.irctc_section{
+   display: flex;
+   align-items: center;
+}
+
+.irctc_section img{
+  background-color: #fff;
+  height: 6vh;
+  padding: 0.4rem;
+  margin-right: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.booking_section{
+  position: absolute;
+  top: 17.6vh;
+  width: 65vw;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  z-index: 10;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.status_container{
+  display: flex;
   
-  .wave {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 400px; 
-    display: block;
-  }
+}
+
+.status{
+  font-size: 17px;
+  font-weight: 700;
+  color: dimgray;
+  cursor: pointer;
+  height: 30px;
+  margin-right: 10px;
+  padding: 17px 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status_container  input[type = "radio"]{
+  margin-right: 10px;
+  accent-color: #0066ff;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+
+.selected {
+  background: rgba(34, 118, 227, .1);
+  color: #0066ff;
+}
+
+.input_section{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 2rem;
+}
+
+.input_section input{
+  width: 20vw;
+  padding: 1.4rem 1.3rem;
+  cursor: pointer;
+  border: solid 2px #e1e7ee;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 850;
+}
+
+.input_section input::placeholder{
+  color: #c2c2c2;
+}
+
+.input_section input:hover{
+  border: solid 2px dimgray;
+}
+
+.input_section div{
+  position: relative;
+}
+
+.input_section div span{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #717171;
+  background-color: #fff;
+  padding: 0 0.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  position: absolute;
+  top: -8px;
+  left: 15px;
+}
+
+.departure input{
+  width: 10vw;
+  font-size: 1rem;
+  padding: 1.45rem 0.9rem;
+}
+
+.class{
+  width: 10vw;
+  font-size: 1rem;
+  font-weight: 850;
+  padding: 1.45rem 1rem;
+  cursor: pointer;
+  border: solid 2px #e1e7ee;
+  border-radius: 10px;
+
+}
+
+.class:hover{
+  border: solid 2px dimgray;
+}
+
+.search_button{
+  display: flex;
+  justify-content: center;
+}
+
+.search_button button{  
+  padding: 1rem 3rem;
+  background-color: #0066ff;
+  color: #ffffff; 
+  font-size: 1.32rem;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  border: none;
+  border-radius: 2.19rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+
+  position: relative;
+  top: 3.7rem;
+}
+
+.search_button button:hover{
+  background-color: #1d5ec1;
+}
+
+.whyUsSection{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 65vw;
+
+  position: absolute;
+  top: 60vh;
+}
+
+.sectionHeader h2{
+  color: #141823;
+  font-size: 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+}
+.sectionHeader p{
+  font-size: 1.05rem;
+  font-family: "Lato", sans-serif;
+  font-family: 590;
+  text-align: center;
+  color: #141823;
+}
+
+.titles{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  list-style: none;
+}
+
+.titles li{
+  display: flex;
+  align-items: center;
+}
+
+.titles span{
+  height: 85px;
+  width: 105px;
+  background-color: #d1e5ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.titles h3{
+  font-size: 1.6rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 750;
+  color: #141823;
+  margin: 0;
+}
+
+.titles p{
+  font-size: 1.02rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 510;
+  letter-spacing: 0.5px;
+  color: #848484;
+  margin-top: 8px;
+}
+
+.titles h6{
+  display: block;
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: #2376e3;
+  margin-top: 6px;
+  font-family: "Lato", sans-serif;
+  cursor: pointer;
+}
+
+.inquiry_area{
+  width: 100%;
+  height: auto;
+  background-color:#d1e5ff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 25vh;
+}
+
+.inquiry_section{
+  width: 65vw;
+  padding: 3.6rem 0;
+  text-align: center;
+}
+
+.inquiry_section h2{
+  color: #203148;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.8px;
+}
+
+.inquiry_cards{
+ display: flex;
+ align-items: center;
+ margin-top: 3rem;
+ cursor: pointer;
+}
+
+.inquiry_content{
+  background-color: #fff;
+  margin-right: 25px;
+  width: 20vw;
+  height: auto;
+  padding: 2rem;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, .16);
+}
+
+.inquiry_content h3{
+  margin: 0;
+  color: #141823;
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+.inquiry_content p{
+  margin: 20px 0;
+  color: #8e8e8e;
+  font-weight: 510;
+}
+
+.inquiry_content button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+  color: #ffffff;
+  background-color: #0066ff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.bookMealSection{
+  width: 65vw;
+  margin-top: 20rem;
+  padding: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, .16);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookMealSection img{
+  background-color: #fff;
+  height: 16vh;
+  padding: 0.4rem;
+  margin-right: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.bookMealSection button{
+  margin-left: 4rem;
+  margin-top: 1rem;
+  background-color: #ff6d38;
+  color: #fff;
+  border: solid 1px #ff6d38;
+  padding: 14px 55px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1.09rem;
+  font-weight: 700;
+}
+
+.bookMealSection button:hover{
+  background-color: transparent;
+  color: #ff6d38;
+  border: solid 1px #ff6d38;
+}
+
+
+.bookContent h3{
+  margin: 0;
+  color: #000;
+  font-size: 2.1rem;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.bookContent p{
+  font-size: 1.375rem;
+  font-weight: 800;
+  color: #8e8e8e;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.irctcSettings{
+  width: 65vw;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.irctcSettings h3{
+  color: #000;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.irctcSettingButtons{
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.irctcSettingContent{
+  display: flex;
+  align-items: center;
   
+  margin-right: 16px;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 5%);
+  border: 2px solid #eff3f8;
+  border-radius: 8px;
+  width: 280px;
+  padding: 10px;
+  position: relative;
+}
+
+.irctcSettingContent img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 16px;
+  border: 1px solid #e5edf6;
+  padding: 7px;
+}
+
+.irctcSettingContent h6{
+  font-size: 1rem;
+  font-weight: 700;
+  color: #2376e3;
+}
+
+.irctcSettingContent span{
+  color: #2376e3;
+  margin-top: 5.5px;
+  position: absolute;
+  right: 8px;
+}

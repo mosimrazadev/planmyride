@@ -18,4 +18,4 @@ const WaveStyle = () => {
   )
 }
 
-export default WaveStyle
+export default WaveStyle;

@@ -1,7 +1,8 @@
 .header {
     position: relative;
     background: #ff6d38;
-    height: 600px;
+    height: 650px;
+    width: 100%;
     overflow: hidden;
   }
   
