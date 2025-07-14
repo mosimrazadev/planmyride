@@ -33,43 +33,46 @@ import Phuket from "./destinations/Phuket.avif"
 import Shimla from "./destinations/Shimla.webp"
 import Singapore from "./destinations/Singapore.webp"
 import Udaipur from "./destinations/Udaipur.avif"
+import UPSRTC from "./goverment-bus-logo/UPSRTC.jpeg"
+import APSRTC from "./goverment-bus-logo/APSRTC.jpeg"
+import BSRTC from "./goverment-bus-logo/BSRTC.jpeg"
+import GSRTC from "./goverment-bus-logo/GSRTC.jpeg"
+import HRTC from "./goverment-bus-logo/HRTC.jpeg"
+import JKSRTC from "./goverment-bus-logo/JKSRTC.jpeg"
+import KERALARTC from "./goverment-bus-logo/KERALARTC.jpeg"
+import OSRTC from "./goverment-bus-logo/OSRTC.jpeg"
+import PRTC from "./goverment-bus-logo/PRTC.jpeg"
+import RSRTC from "./goverment-bus-logo/RSRTC.jpeg"
+import TGSRTC from "./goverment-bus-logo/TGSRTC.jpeg"
+import ASTC from "./goverment-bus-logo/ASTC.avif"
+import UPSRTC_bg from "./state-images/UPSRTC_bg.jpeg"
+import APSRTC_bg from "./state-images/APSRTC_bg.jpeg"
+import BSRTC_bg from "./state-images/BSRTC_bg.jpeg"
+import GSRTC_bg from "./state-images/GSRTC_bg.jpeg"
+import HRTC_bg from "./state-images/HRTC_bg.jpeg"
+import JKSRTC_bg from "./state-images/JKSRTC_bg.jpeg"
+import KERALARTC_bg from "./state-images/KERALARTC_bg.jpeg"
+import OSRTC_bg from "./state-images/OSRTC_bg.jpeg"
+import PRTC_bg from "./state-images/PRTC_bg.jpeg"
+import RSRTC_bg from "./state-images/RSRTC_bg.jpeg"
+import TGSRTC_bg from "./state-images/TGSRTC_bg.jpeg"
+import ASTC_bg from "./state-images/ASTC_bg.jpg"
+import ahemdabad from "./bus-city-images/ahemdabad.webp"
+import chennai from "./bus-city-images/chennai.webp"
+import delhi from "./bus-city-images/delhi.webp"
+import hyderabad from "./bus-city-images/hyderabad.webp"
+import mumbai from "./bus-city-images/mumbai.webp"
+import pune from "./bus-city-images/pune.webp"
+import tirupathi from "./bus-city-images/tirupathi.webp"
+
 
 
 
 export{
-    nav_logo,
-    nav_flights,
-    nav_hotel,
-    nav_train,
-    nav_cabs,
-    nav_bus,
-    nav_holiday,
-    bus1,
-    cab1,
-    hotel1,
-    indigo1,
-    kotak1,
-    train1,
-    calendar,
-    clock,
-    Amritsar,
-    Amsterdam,
-    Bali,
-    Bengaluru,
-    Dubai,
-    HoChiMinh,
-    Hyderabad,
-    Krabi,
-    Langkawi,
-    Maldives,
-    Manali,
-    Mumbai,
-    Munnar,
-    Mysore,
-    Ooty,
-    Paris,
-    Phuket,
-    Shimla,
-    Singapore,
-    Udaipur,
+    nav_logo, nav_flights, nav_hotel, nav_train, nav_cabs, nav_bus, nav_holiday,
+    bus1, cab1, hotel1, indigo1, kotak1, train1, calendar, clock,
+    Amritsar, Amsterdam, Bali, Bengaluru, Dubai, HoChiMinh, Hyderabad, Krabi, Langkawi, Maldives, Manali, Mumbai, Munnar, Mysore, Ooty, Paris, Phuket, Shimla, Singapore, Udaipur,
+    UPSRTC, APSRTC, BSRTC, GSRTC, HRTC, JKSRTC, KERALARTC, OSRTC, PRTC, RSRTC, TGSRTC, ASTC,
+    UPSRTC_bg, APSRTC_bg, BSRTC_bg, GSRTC_bg, HRTC_bg, JKSRTC_bg, KERALARTC_bg, OSRTC_bg, PRTC_bg, RSRTC_bg, TGSRTC_bg, ASTC_bg,
+    ahemdabad, chennai, delhi, hyderabad, mumbai, pune, tirupathi,
 };

@@ -49,6 +49,11 @@
     width: 16vw;
 }
 
+.auth_form form div{
+    position: relative;
+    width: 100%;
+}
+
 .auth_form form input{
     height: 5.5vh;
     width: 100%;
@@ -60,6 +65,7 @@
     border: solid 2px #fbefec;
     border-radius: 5px;
 }
+
 
 .auth_form form input:hover{
     border: solid 2px dimgray;

@@ -53,10 +53,18 @@ const Signup = () => {
         <div className={styles.auth_form} onClick={(e) => e.stopPropagation()}>
             <h1>Sign Up</h1>
             <form onSubmit={handleSubmit}>
+              <div>
                 <input value={form.name} onChange={handleInput} name='name' type='text' placeholder='Enter Full Name'/>
+              </div>
+              <div>
                 <input value={form.number} onChange={handleInput} name='number' type='tel' placeholder='Enter Mobile Number' pattern="[0-9]{10}"/>
+              </div>
+              <div>
                 <input value={form.password} onChange={handleInput} name='password' type='password' placeholder='Enter Password'/>
+              </div>
+              <div>
                 <input value={form.confirm_password} onChange={handleInput} name='confirm_password' type='password' placeholder='Confirm Password'/>
+              </div>
                 <button>Sign Up</button>
             </form>
             <div className={styles.error_msg}>{error}</div>

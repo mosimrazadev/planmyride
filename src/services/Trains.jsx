@@ -37,7 +37,7 @@ const Trains = () => {
   const irctcSettings = [
     {title:"Create IRCTC ID", img:irctc_lofo2, svg:<IoIosArrowDroprightCircle />, link:"https://www.irctc.co.in/nget/profile/user-registration"},
     {title:"Forgot IRCTC ID", img:irctc_lofo2, svg:<IoIosArrowDroprightCircle />, link:"https://www.irctc.co.in/nget/profile/forgot-password?pageType=P"},
-    {title:"Forgot IRCTC Password", img:irctc_lofo2, svg:<IoIosArrowDroprightCircle />, link:"https://www.irctc.co.in/nget/profile/forgot-password?pageType=P"}
+    {title:"Forgot IRCTC Password", img:irctc_lofo2, svg:<IoIosArrowDroprightCircle />, link:"https://www.irctc.co.in/nget/profile/forgot-password?pageType=P"},
   ]
 
 

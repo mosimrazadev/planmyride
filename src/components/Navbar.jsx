@@ -9,7 +9,6 @@ import { authContext } from '../context/auth-context'
 import { nav_logo, nav_flights, nav_hotel, nav_train, nav_cabs, nav_bus, nav_holiday} from "../assets";
 
 
-
 const Navbar = () => {
 
   const {authModal, setAuthModal, currentUser, setCurrentUser} = useContext(authContext);

@@ -45,8 +45,12 @@ const Login = () => {
         <div className={styles.auth_form} onClick={(e) => e.stopPropagation()}>
             <h1>Log In</h1>
             <form onSubmit={handleSubmit}>
+              <div>
                <input value={form.number} name='number' onChange={handleInput} type="tel" placeholder="Enter Mobile Number" pattern="[0-9]{10}" />
+              </div>
+              <div>
                <input value={form.password} name='password' onChange={handleInput} type='password' placeholder='Enter Password'/>
+              </div>
                <button>Log In</button>
             </form>
             <span className={styles.error_msg}>{error}</span>
