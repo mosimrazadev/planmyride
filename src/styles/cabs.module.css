@@ -1,21 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 .cabs_page{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  overflow-x: hidden;
+}
+
+.header{
+    height: 320px;
+    width: 100%;
+    background-color: #0066ff;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+
+    position: absolute;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+    align-items: start;
+}
+
+.header h3{
+    padding: 15px 0;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 
 .booking_section{
-    margin-top: 10vh;
-    height: 40vh;
+    position: absolute;
+    top: 17.6vh;
     width: 65vw;
+    padding: 2rem;
     background-color: #ffffff;
-    font-size: 30px;
-    font-weight: 900;
     border-radius: 20px;
+    z-index: 10;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
+}
+  
+.status_container{
+    display: flex;
+    
+}
+  
+.status{
+    font-size: 17px;
+    font-weight: 700;
+    color: dimgray;
+    cursor: pointer;
+    height: 30px;
+    margin-right: 10px;
+    padding: 17px 20px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+  
+.status_container  input[type = "radio"]{
+    margin-right: 10px;
+    accent-color: #0066ff;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+  
+  
+.selected {
+    background: rgba(34, 118, 227, .1);
+    color: #0066ff;
+}
+  
+.input_section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2rem;
+}
+  
+.input_section input{
+    width: 20vw;
+    padding: 1.4rem 1.3rem;
+    cursor: pointer;
+    border: solid 2px #e1e7ee;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 850;
+}
+  
+.input_section input::placeholder{
+    color: #c2c2c2;
+}
+  
+.input_section input:hover{
+    border: solid 2px dimgray;
+}
+  
+.input_section div{
+    position: relative;
+}
+  
+.input_section div span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #717171;
+    background-color: #fff;
+    padding: 0 0.25rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    position: absolute;
+    top: -8px;
+    left: 15px;
+}
+  
+.departure input{
+    width: 10vw;
+    font-size: 1rem;
+    padding: 1.45rem 0.9rem;
+}
+  
+.pickUpTime input{
+    width: 10vw;
+    font-size: 1rem;
+    padding: 1.45rem 0.9rem;
+}
+  
+.search_button{
+    display: flex;
+    justify-content: center;
+}
+  
+.search_button button{  
+    padding: 1rem 3rem;
+    background-color: #0066ff;
+    color: #ffffff; 
+    font-size: 1.32rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 2.19rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+  
+    position: relative;
+    top: 3.7rem;
+}
+  
+.search_button button:hover{
+    background-color: #1d5ec1;
+}
+
+.whyUsSection{
+    width: 65vw;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 34rem;
+}
+
+.whyUsSection h2{
+    color: rgb(33, 33, 33);
+    font-weight: 750;
+}
+
+
+.whyUscontent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    margin-top: 2rem;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background: linear-gradient(101deg, rgb(211, 254, 238) 0%, rgb(255, 255, 255) 97%);
+    padding: 4rem;
+    border-radius: 20px;
+}
+
+.whyUsTextContent{
+   display: flex;
+   align-items: center;
+}
+
+.whyUsTextContent img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    padding: 13px;
+    overflow: visible;
+    border: solid 1px lightgreen;
+    border-radius: 50%;
+}
+
+.whyUsTextContent h5{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: rgb(43, 43, 43);
+}
+
+/* cabs popular route section */
+.cabsRouteSection{
+    width: 65vw;
+    margin-top: 5vh;
+}
+
+.cabsRouteSection h3{
+    margin: 0;
+    margin-bottom: 5px;
+    color: #000;
+    font-weight: 800;
+}
+
+.cabsRouteSection p{
+   color:#484848;
+   font-weight: 700;
+}
+
+.cabsRouteListContainer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 47px;
+    row-gap: 25px;
+    margin-top: 20px;
+}
+
+.cabsRouteCards{
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 20vw;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.cabsRouteCards img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.cabsRouteTextContent{
+    word-wrap: break-word;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabsRouteTextContent h2{
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+}
+
+.cabsRouteTextContent p{
+    font-size: 0.80rem;
+    font-weight: 600;
+    width: 100%;
+    color: #717171;
+}
+
+.cabsRouteCards button{
+    background-color: transparent;
+    font-size: 0.75rem;
+    font-weight: 650;
+    padding: .3rem .8rem;
+    border-radius: 1.875rem;
+    border: solid 1px #848794;
+    cursor: pointer;
+
+    position: absolute;
+    right: .5rem;
+}
+
+.cabsRouteCards button:hover{
+    background-color: #e7e7e7;
 }

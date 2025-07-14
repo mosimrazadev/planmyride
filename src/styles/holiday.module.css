@@ -3,6 +3,7 @@
     align-items: center;
     flex-direction: column;
     gap: 10px;
+    overflow-x: hidden;
 }
 
 .booking_section{

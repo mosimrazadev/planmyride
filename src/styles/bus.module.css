@@ -6,6 +6,7 @@
     flex-direction: column;
     gap: 10px;
     background-color: rgb(239, 243, 248);
+    overflow-x: hidden;
 }
 
 .header{
@@ -58,7 +59,7 @@
 }
   
 .input_section input::placeholder{
-    color: #c2c2c2;
+    color: #898989;
 }
   
 .input_section input:hover{
@@ -377,5 +378,11 @@
    font-size: 1.25rem;
    font-weight: 700;
    color: #17181c;
+}
+
+.routeTextContent svg{
+    margin: 0 5px;
+    width: 20px;
+    position: relative;
 }
 

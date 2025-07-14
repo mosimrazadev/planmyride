@@ -64,6 +64,14 @@ import hyderabad from "./bus-city-images/hyderabad.webp"
 import mumbai from "./bus-city-images/mumbai.webp"
 import pune from "./bus-city-images/pune.webp"
 import tirupathi from "./bus-city-images/tirupathi.webp"
+import agra from "./bus-city-images/agra.jpg"
+import chandigarh from "./bus-city-images/chandigarh.avif"
+import bangalore from "./bus-city-images/bangalore.webp"
+import carWash from "./cabs-page-images/car-wash.png"
+import dollars from "./cabs-page-images/dollars.png"
+import map from "./cabs-page-images/map.png"
+import texiDriver from "./cabs-page-images/taxi-driver.png"
+
 
 
 
@@ -74,5 +82,6 @@ export{
     Amritsar, Amsterdam, Bali, Bengaluru, Dubai, HoChiMinh, Hyderabad, Krabi, Langkawi, Maldives, Manali, Mumbai, Munnar, Mysore, Ooty, Paris, Phuket, Shimla, Singapore, Udaipur,
     UPSRTC, APSRTC, BSRTC, GSRTC, HRTC, JKSRTC, KERALARTC, OSRTC, PRTC, RSRTC, TGSRTC, ASTC,
     UPSRTC_bg, APSRTC_bg, BSRTC_bg, GSRTC_bg, HRTC_bg, JKSRTC_bg, KERALARTC_bg, OSRTC_bg, PRTC_bg, RSRTC_bg, TGSRTC_bg, ASTC_bg,
-    ahemdabad, chennai, delhi, hyderabad, mumbai, pune, tirupathi,
+    ahemdabad, chennai, delhi, hyderabad, mumbai, pune, tirupathi, agra, chandigarh,bangalore,
+    carWash, dollars, map, texiDriver,
 };
