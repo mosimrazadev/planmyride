@@ -72,11 +72,25 @@
     margin-bottom: 5px;
 }
   
-.footerSocial a img {
-    width: 24px;
-    margin-right: 10px;
+.footerSocial a {
+    width: 54px;
+    height: 54px;
+    margin-right: 8px;
+}
+
+.footerSVS{
+    display: flex;
+    align-items: center;
 }
   
+.socialIcon svg {
+    font-size: 35px;
+}
+
+.socialIconFB svg{
+    font-size: 32px;
+}
+
 .footerBottom {
     text-align: center;
     border-top: 1px solid #333;

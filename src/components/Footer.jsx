@@ -1,6 +1,10 @@
 import React from 'react';
 import styles from "../styles/footer.module.css";
 import { HashLink as Link } from 'react-router-hash-link';
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { ImFacebook2 } from "react-icons/im";
+
 
 const Footer = () => {
   return (
@@ -31,10 +35,14 @@ const Footer = () => {
 
         <div className={styles.footerSocial}>
           <h4>Follow Us</h4>
-          <a href="#"><img src="/icons/facebook.svg" alt="Facebook" /></a>
-          <a href="#"><img src="/icons/instagram.svg" alt="Instagram" /></a>
-          <a href="#"><img src="/icons/youtube.svg" alt="YouTube" /></a>
+          <div className={styles.footerSVS}>
+          <a href="#" className={styles.socialIcon}><FaInstagram /></a>
+          <a href="#" className={styles.socialIcon}><FaSquareXTwitter /></a>
+          <a href="#" className={styles.socialIcon}><FaLinkedin /></a>
+          <a href="#" className={styles.socialIconFB}><ImFacebook2 /></a>
+          </div>
         </div>
+
       </div>
 
     </footer>
