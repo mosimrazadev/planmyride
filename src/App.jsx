@@ -1,12 +1,12 @@
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
-import Flight from './services/Flight'
-import Hotels from './services/Hotels'
-import Trains from './services/Trains'
-import Cabs from './services/Cabs'
-import Bus from './services/Bus'
-import Holiday from './services/Holiday'
+import Flight from './pages/Flight'
+import Hotels from './pages/Hotels'
+import Trains from './pages/Trains'
+import Cabs from './pages/Cabs'
+import Bus from './pages/Bus'
+import Holiday from './pages/Holiday'
 import AuthProvider from './context/auth-context'
 
 

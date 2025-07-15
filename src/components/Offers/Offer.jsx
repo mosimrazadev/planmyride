@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
-import styles from "../styles/offer.module.css"
+import styles from "../../styles/offer.module.css"
 import { LuArrowLeft, LuArrowRight } from "react-icons/lu";
-import {bus1, cab1, hotel1, indigo1, kotak1, train1, calendar, clock} from "../assets";
+import {bus1, cab1, hotel1, indigo1, kotak1, train1, calendar, clock} from "../../assets";
 
 const Offer = () => {
 

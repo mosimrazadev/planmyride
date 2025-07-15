@@ -3,8 +3,8 @@ import styles from "../styles/navbar.module.css"
 import { FaUser } from "react-icons/fa";
 import { MdLogout } from "react-icons/md";
 import { Link, useNavigate } from 'react-router-dom';
-import Login from '../pages/Login'
-import Signup from '../pages/Signup'
+import Login from '../components/auth/Login'
+import Signup from '../components/auth/Signup'
 import { authContext } from '../context/auth-context'
 import { nav_logo, nav_flights, nav_hotel, nav_train, nav_cabs, nav_bus, nav_holiday} from "../assets";
 

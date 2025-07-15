@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from "../styles/emirates.module.css"
-import emirates_image from "../assets/emirates.jpg"
+import styles from "../../styles/emirates.module.css"
+import emirates_image from "../../assets/emirates.jpg"
 
 const Emirates = () => {
 

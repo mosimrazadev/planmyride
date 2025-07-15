@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import styles from "../styles/holidaySlider.module.css";
+import styles from "../../styles/holidaySlider.module.css";
 import {
   maldivesSlider,
   sunSiyamSlider,
   thailandSlider,
   dubaiSlider,
-} from "../assets/index.js";
+} from "../../assets/index.js";
 
 const images = [
   maldivesSlider.img1,

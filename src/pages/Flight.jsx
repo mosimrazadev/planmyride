@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import styles from "../styles/flight.module.css"
 import { TbArrowsExchange } from "react-icons/tb";
-import Offer from '../Offers/Offer';
-import Emirates from '../Ads/Emirates';
+import Offer from '../components/Offers/Offer';
+import Emirates from '../components/Ads/Emirates';
 import Footer from '../components/Footer';
 
 

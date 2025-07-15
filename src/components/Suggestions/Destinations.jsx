@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from "../styles/destinations.module.css"
-import {Amritsar, Amsterdam, Bali, Bengaluru, Dubai, HoChiMinh, Hyderabad, Krabi, Langkawi, Maldives, Manali, Mumbai, Munnar, Mysore, Ooty, Paris, Phuket, Shimla, Singapore, Udaipur,} from "../assets";
+import styles from "../../styles/destinations.module.css"
+import {Amritsar, Amsterdam, Bali, Bengaluru, Dubai, HoChiMinh, Hyderabad, Krabi, Langkawi, Maldives, Manali, Mumbai, Munnar, Mysore, Ooty, Paris, Phuket, Shimla, Singapore, Udaipur,} from "../../assets";
 
 
 const popularDestinations = [

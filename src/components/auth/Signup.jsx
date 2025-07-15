@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
-import styles from "../styles/auth.module.css"
+import styles from "../../styles/auth.module.css"
 import { IoCloseOutline } from "react-icons/io5";
-import { authContext } from '../context/auth-context'
+import { authContext } from '../../context/auth-context'
 import { useState } from 'react';
 
 const Signup = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/trains.module.css';
-import WaveStyle from '../designs/WaveStyle';
+import WaveStyle from '../components/designs/WaveStyle';
 import Footer from '../components/Footer';
 import irctc_logo from "../assets/irctc_logo.webp"
 import irctc_lofo2 from "../assets/irctc_logo2.jpg"

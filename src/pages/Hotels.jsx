@@ -3,7 +3,7 @@ import styles from "../styles/hotels.module.css"
 import Footer from '../components/Footer'
 import { FaChevronDown } from "react-icons/fa";
 import store_img from "../assets/LeRoi-image.png"
-import Destinations from '../Suggestions/Destinations';
+import Destinations from '../components/Suggestions/Destinations';
 
 
 const Hotels = () => {

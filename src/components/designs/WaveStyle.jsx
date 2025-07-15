@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../styles/wavestyle.module.css"
+import styles from "../../styles/wavestyle.module.css"
 
 const WaveStyle = () => {
   return (

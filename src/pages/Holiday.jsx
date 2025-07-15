@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from "../styles/holiday.module.css"
-import WaveStyle from '../designs/WaveStyle'
-import HolidaySlider from '../Ads/HolidaySlider'
-import Destinations from '../Suggestions/Destinations';
+import WaveStyle from '../components/designs/WaveStyle'
+import HolidaySlider from '../components/Ads/HolidaySlider'
+import Destinations from '../components/Suggestions/Destinations';
 import Footer from '../components/Footer'
 
 
