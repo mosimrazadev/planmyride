@@ -28,7 +28,7 @@ const HolidaySlider = () => {
   }, []);
 
   return (
-    <div className={styles.sliderWrapper}>
+    <div id="holidaySlider" className={styles.sliderWrapper}>
       <div className={styles.sliderContainer}>
         <div
           className={styles.slidesWrapper}

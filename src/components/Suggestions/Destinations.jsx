@@ -28,7 +28,7 @@ const popularDestinations = [
 
 const Destinations = () => {
   return (
-    <div className={styles.container}>
+    <div id='popularDestinations' className={styles.container}>
            <div className={styles.text_content}>
               <h3>Popular Destinations</h3>
               <p>We have selected some best locations around the world for you.</p>

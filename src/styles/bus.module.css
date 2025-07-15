@@ -310,6 +310,7 @@
 
 .busRouteSectoin{
     width: 65vw;
+    scroll-margin-top: 70px
 }
 
 .busRouteHeader h3{

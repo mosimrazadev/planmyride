@@ -121,7 +121,7 @@ const Bus = () => {
       </div>
     </div>
 
-    <div className={styles.busRouteSectoin}>
+    <div id='busRoutes' className={styles.busRouteSectoin}>
 
       <div className={styles.busRouteHeader}>
         <h3>Popular Bus Routes</h3>

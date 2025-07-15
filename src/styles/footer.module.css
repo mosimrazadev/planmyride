@@ -1,12 +1,87 @@
-.footer{
-    height: 15vw;
+.footer {
     width: 100vw;
-    font-size: 30px;
-    font-weight: 900;
     background-color: #141823;
     color: #ffffff;
+    margin-top: 20vh;
+    padding: 3rem 5rem 2rem 5rem;
+    box-sizing: border-box;
+}
+  
+.footerContainer {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 20vh;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
 }
+  
+.footerAbout,
+.footerLinks,
+.footerContact,
+.footerSocial {
+    flex: 1 1 200px;
+    max-width: 300px;
+    
+}
+  
+.footer h3 {
+    margin: 0;
+    font-size: 1.55 rem;
+    font-weight: 850;
+    margin-bottom: 1rem;
+}
+  
+.footer h4 {
+    font-size: 1.50rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+  
+.footer p,
+.footer a {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.textLineContent{
+    line-height: 22px;
+}
+
+.copyrightNotice{
+  margin-top: 20px;
+}
+  
+.footerLinks ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.footerLinks li {
+    margin-bottom: 0.32rem;
+}
+  
+.footerLinks a {
+    text-decoration: none;
+}
+  
+.footerLinks a:hover {
+    text-decoration: underline;
+}
+
+.footerContact p{
+    margin-bottom: 5px;
+}
+  
+.footerSocial a img {
+    width: 24px;
+    margin-right: 10px;
+}
+  
+.footerBottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+}
+  

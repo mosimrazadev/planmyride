@@ -3,6 +3,7 @@
   width: 100%;
   max-width: 65vw;
   margin: 0 auto;
+  scroll-margin-top: 270px
 }
 
 /* Container that has border-radius */
