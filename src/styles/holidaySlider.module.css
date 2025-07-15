@@ -1,0 +1,57 @@
+/* Wrapper around the entire slider + dots */
+.sliderWrapper {
+  width: 100%;
+  max-width: 65vw;
+  margin: 0 auto;
+}
+
+/* Container that has border-radius */
+.sliderContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+/* Slider image area that scrolls */
+.slidesWrapper {
+  display: flex;
+  transition: transform 3s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+}
+
+/* Each image */
+.sliderImage {
+  flex-shrink: 0;
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  display: block;
+}
+
+/* Dots below the container */
+.dotsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Dot styling */
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #a4a4a4;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot:hover {
+  background-color: #999;
+}
+
+/* Active dot */
+.active {
+  background-color: #ff6d38;
+}

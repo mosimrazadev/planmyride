@@ -71,9 +71,17 @@ import carWash from "./cabs-page-images/car-wash.png"
 import dollars from "./cabs-page-images/dollars.png"
 import map from "./cabs-page-images/map.png"
 import texiDriver from "./cabs-page-images/taxi-driver.png"
+import maldivesImg from "./holidaySlider/maldivesSlider.jpg";
+import sunSiyamImg from "./holidaySlider/SunSiyamSlider.jpg";
+import thailandImg from "./holidaySlider/thailandSlider.jpg";
+import dubaiImg from "./holidaySlider/dubaiSlider.jpg";
 
 
 
+export const maldivesSlider = { img1: maldivesImg };
+export const sunSiyamSlider = { img1: sunSiyamImg };
+export const thailandSlider = { img1: thailandImg };
+export const dubaiSlider = { img1: dubaiImg };
 
 
 export{
