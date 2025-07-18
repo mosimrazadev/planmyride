@@ -22,9 +22,9 @@ const Footer = () => {
             <li><Link to="/hotels#popularDestinations">Destinations</Link></li>
             <li><Link to="/holiday#holidaySlider">Packages</Link></li>
             <li><Link to="/bus#busRoutes">Popular Bus Routes</Link></li>
-            <li><Link to="/">About Us</Link></li>
+            <li><Link to="/a">About Us</Link></li>
           </ul>
-        </div>
+        </div>  
 
         <div className={styles.footerContact}>
           <h4>Contact Us</h4>
@@ -38,7 +38,7 @@ const Footer = () => {
           <div className={styles.footerSVS}>
           <a href="#" className={styles.socialIcon}><FaInstagram /></a>
           <a href="#" className={styles.socialIcon}><FaSquareXTwitter /></a>
-          <a href="#" className={styles.socialIcon}><FaLinkedin /></a>
+          <a href="https://www.linkedin.com/in/mosim-raza-00b44b358/"  target="_blank" className={styles.socialIcon}><FaLinkedin /></a>
           <a href="#" className={styles.socialIconFB}><ImFacebook2 /></a>
           </div>
         </div>
